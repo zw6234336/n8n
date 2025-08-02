@@ -1,0 +1,3 @@
+Initializing n8n process
+There was an error initializing DB
+connect ECONNREFUSED ::1:3306
