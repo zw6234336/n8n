@@ -1,3 +1,22 @@
 Initializing n8n process
-There was an error initializing DB
-connect ECONNREFUSED ::1:3306
+n8n ready on ::, port 5678
+
+There are deprecations related to your environment variables. Please take the recommended actions to update your configuration:
+ - DB_TYPE -> MySQL and MariaDB are deprecated. Please migrate to PostgreSQL.
+ - N8N_RUNNERS_ENABLED -> Running n8n without task runners is deprecated. Task runners will be turned on by default in a future version. Please set `N8N_RUNNERS_ENABLED=true` to enable task runners now and avoid potential issues in the future. Learn more: https://docs.n8n.io/hosting/configuration/task-runners/
+
+[license SDK] Skipping renewal on init because renewal is not due yet or cert is not initialized
+Failed to load OIDC configuration from database, falling back to default configuration.
+OIDC login is disabled.
+Marked executions as `crashed`
+[Recovery] Logs available, amended execution
+Found unfinished executions: 10
+This could be due to a crash of an active workflow or a restart of n8n
+Version: 1.101.0
+Locale: zh-CN
+
+Editor is now accessible via:
+http://localhost:5678
+[license SDK] license successfully renewed
+[license SDK] license activation failed: consumer already has a valid entitlement for this reservation
+[license SDK] license successfully renewed
